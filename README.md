@@ -1,2 +1,5 @@
-# market-basket-analysis
-A little project for a data science course
+# Association Rule Learning with Applications to Market Basket Analysis
+
+Market basket analysis is a popular association rule learning technique for analyzing large data sets of transactional data. The main idea is to first look for combinations of items that occur together frequently in transactions (frequent itemset generation), to then identify association rules over these combinations. Using this information businesses can, for instance, make decisions about potential discounts on a certain product or how to place these items in the store. In an online setting, this is typically seen in ``recommended products based on your purchase'' sections.
+
+In this work, we describe the association rule learning problem applied to market basket analysis. We review two methods for frequent itemset generation: Apriori and FP-Growth. In addition, we discuss metrics that are commonly used to describe the usefulness of the results. Finally, we perform market basket analysis on two sets of data, a small one coming from supermarket transactions and a larger one from an online wholesale retailer.    
